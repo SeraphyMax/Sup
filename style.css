@@ -1,0 +1,51 @@
+body{
+  margin: 0;
+}
+
+
+.header{
+  height: 100px;
+  background-color: aliceblue;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.about{
+  display: flex;
+  height: 400px;
+  justify-content: center;
+  background-color: antiquewhite;
+}
+
+.abouttext{}
+
+.about_image{
+  max-height: 350px;
+  max-width: 350px;
+}
+.about_image>img{
+  max-height: 350px;
+  max-width: 350px;
+
+}
+
+.service{
+  max-height:400px;
+  background-color: aqua;
+}
+
+
+.prices{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-color: aquamarine;
+}
+
+
+.contacts{
+  background-color: beige;
+  display: flex;
+}
