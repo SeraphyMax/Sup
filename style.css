@@ -1,32 +1,81 @@
 body{
   margin: 0;
+  
+}
+main {max-width: 1280px;
+  display: flex;
+  flex-direction: column;
+ margin: auto;
 }
 
 
 .header{
-  height: 100px;
-  background-color: aliceblue;
+  height: 170px;
   margin: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
+  max-width: 1280px;
+   margin: auto;
+   align-items: center;
+   background-image: url(header.jpg);
+   background-position: center;
+   font-family: 'Bad Script';
+   color: rgba(247, 225, 193, 0.700);
+
 }
+
+.navi{
+  margin-top: 10%;
+  margin-right: 7%;
+
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.nav > li{
+  margin-left: 20px;
+  color: rgb(247, 225, 193);;
+}
+
+.nav > li >a{
+  color: rgba(247, 225, 193, 0.700);
+  text-decoration: none;
+}
+
+
 
 .about{
   display: flex;
   height: 400px;
-  justify-content: center;
-  background-color: antiquewhite;
+  justify-content: space-evenly;
+  background: rgb(53,141,201);
+  background: linear-gradient(90deg, rgba(53,141,201,1) 1%, rgba(35,145,221,1) 51%, rgba(138,199,247,1) 100%);
+  max-width: 1280px;
+  align-items: center;
+  
+
 }
 
-.abouttext{}
+.abouttext{
+  max-height: 350px;
+  max-width: 350px;
+  justify-self: center;
+  font-family: 'Istok Web', sans-serif;
+  color: black;
+}
 
 .about_image{
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 390px;
+  max-width: 600px;
 }
 .about_image>img{
-  max-height: 350px;
-  max-width: 350px;
+  max-height: 390px;
+  max-width: 600px;
+  border-radius: 5%;
 
 }
 
